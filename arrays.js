@@ -22,3 +22,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array){
 array.shift()
   return array
 }
+funtion removeElementFromBeginningOfArray(array){
+  array.splice(1)
+  return array
+}
